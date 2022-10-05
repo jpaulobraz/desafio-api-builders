@@ -29,7 +29,7 @@ O objetivo do desafio é testar 3 apis de pix. O contexto da aplicação é real
 
 **Execução:** 
   - Postman (versão desktop) - https://www.postman.com/
-  - JMeter (performance)
+  - JMeter (performance) - https://jmeter.apache.org/
 
 
 ## :shipit:  Técnica de Teste
@@ -55,10 +55,18 @@ Testes foram divididos em duas partes:
 1. Ao abrir o report gerado pela ferramenta qase 
 2. Clicar em <Result> para obter informações mais detalhadas
 
-- Teste de Unidade: https://app.qase.io/public/report/eac1d4291bb04ef17e3056b9582687e49dfd1f4a
-- Teste de Sistema: https://app.qase.io/public/report/f5a3b8fd678938e79441e22cb666d256e3314617
+- Teste de Unidade: 
+- Teste de Sistema: 
 
 ## :white_check_mark: Sugestão de Melhoria
 
-- 
+- API de pagamento (/pix/payments) poderia ter um campos status de pagamento conforme especificação da API do BACEN
+  - ATIVA: indica que o registro se refere a uma cobrança que foi gerada mas ainda não foi paga nem removida;
+  - CONCLUIDA: indica que o registro se refere a uma cobrança que já foi paga e, por conseguinte, não pode acolher outro pagamento;
+  - REMOVIDO_PELO_USUARIO_RECEBEDOR: indica que o usuário recebedor solicitou a remoção do registro da cobrança; e
+  - REMOVIDO_PELO_PSP: indica que o PSP Recebedor solicitou a remoção do registro da cobrança.
+  
+  Referência: https://bacen.github.io/pix-api/
+  
+- API de pagamento (/pix/payments) só precisa do id da transação para retornar os dados do pagamento, pois esse Id é único. Seguindo a referência do BACEN.
 
