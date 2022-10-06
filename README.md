@@ -91,4 +91,6 @@ Testes foram divididos em duas partes:
   API Pix Codes: Em média 90% dos usuários recebem a resposta em 1628ms
   
   API Pix Payments: Não foi possível avaliar a requisição, pois existe um bug crítico na API
+  
+ - Foi incluído no git o arquivo de configuração (JMeter) para teste da API.
 
