@@ -55,7 +55,7 @@ Testes foram divididos em duas partes:
 1. Ao abrir o report gerado pela ferramenta qase 
 2. Clicar em <Result> para obter informações mais detalhadas
 
-- Link:
+- Link: https://app.qase.io/public/report/2b2f9d92d097f7f1ed0c0e607780752d83e38811
 
 ## :sob: Report de Bugs
 
@@ -77,4 +77,18 @@ Testes foram divididos em duas partes:
   
   Referência: https://bacen.github.io/pix-api/
   
+ - Não há documentação da API. Seria interessante documentar toda a API utilizando a ferramenta https://swagger.io/
+  
+## :stopwatch: Análise de Performance  
+  
+ - Não foi descrito qual o tempo de resposta ideal da API, porém foi agregado esse teste para verificar a resposta da aplicação. Podemos notar que existe um tempo sginificativo nas resposta e poderíamos melhorar o código. Print da análise está nas respectivas pastas do git.
+  
+  
+ - Estimativa baseada em 10 usuários simultâneos
+  
+  API Account: Em média 90% dos usuários recebem a resposta em 1936ms
+  
+  API Pix Codes: Em média 90% dos usuários recebem a resposta em 1628ms
+  
+  API Pix Payments: Não foi possível avaliar a requisição, pois existe um bug crítico na API
 
