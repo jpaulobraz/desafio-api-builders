@@ -61,11 +61,11 @@ Testes foram divididos em duas partes:
 
 - Foi gerado planilha excel e adicionado no github com imagens e descrição dos bus encontrados. Foi seguido o seguinte padrão para classificação dos bugs:
 
-:red_circle: Alta - Bloqueia completamente a utilização de uma funcionalidade básica ou da aplicação inteira
+:red_circle: Block - Bloqueia completamente a utilização de uma funcionalidade básica ou da aplicação inteira
 
-:yellow_circle: Média - Bloqueia a utilização de uma funcionalidade, mas não impede que o sistema possa ser utilizado por meio de alguma correção paleativa.
+:yellow_circle: Major - Bloqueia a utilização de uma funcionalidade, mas não impede que o sistema possa ser utilizado por meio de alguma correção paleativa.
 
-:green_circle: Baixa - Problemas de baixa complexidade ou melhorias. Exemplo: Cor do botão está incorreto. Deveria ser verde e está com cor azul.
+:green_circle: Minor - Problemas de baixa complexidade ou melhorias. Exemplo: Cor do botão está incorreto. Deveria ser verde e está com cor azul.
 
 ## :white_check_mark: Sugestão de Melhoria
 
