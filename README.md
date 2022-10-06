@@ -55,7 +55,7 @@ Testes foram divididos em duas partes:
 1. Ao abrir o report gerado pela ferramenta qase 
 2. Clicar em <Result> para obter informações mais detalhadas
 
-- Link: https://app.qase.io/public/report/2b2f9d92d097f7f1ed0c0e607780752d83e38811
+- Link: <a href="https://app.qase.io/public/report/2b2f9d92d097f7f1ed0c0e607780752d83e38811"> Report API </a>
 
 ## :sob: Report de Bugs
 
