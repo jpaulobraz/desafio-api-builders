@@ -46,7 +46,7 @@ O objetivo do desafio é testar 3 apis de pix. O contexto da aplicação é real
 
 Testes foram divididos em duas partes:
 
-- Teste de Sistema: Foi testado a funcionalidade da aplicação conforme regras negociais.
+- Teste Funcional: Foi testado as requisições conforme regras negociais.
 - Teste de Performance: Foi testado perfomance da aplicação para simular diversos dados na API.
 
 
@@ -55,8 +55,17 @@ Testes foram divididos em duas partes:
 1. Ao abrir o report gerado pela ferramenta qase 
 2. Clicar em <Result> para obter informações mais detalhadas
 
-- Teste de Unidade: 
-- Teste de Sistema: 
+- Link:
+
+## :sob: Report de Bugs
+
+- Foi gerado planilha excel e adicionado no github com imagens e descrição dos bus encontrados. Foi seguido o seguinte padrão para classificação dos bugs:
+
+:red_circle: Alta - Bloqueia completamente a utilização de uma funcionalidade básica ou da aplicação inteira
+
+:yellow_circle: Média - Bloqueia a utilização de uma funcionalidade, mas não impede que o sistema possa ser utilizado por meio de alguma correção paleativa.
+
+:green_circle: Baixa - Problemas de baixa complexidade ou melhorias. Exemplo: Cor do botão está incorreto. Deveria ser verde e está com cor azul.
 
 ## :white_check_mark: Sugestão de Melhoria
 
@@ -68,5 +77,4 @@ Testes foram divididos em duas partes:
   
   Referência: https://bacen.github.io/pix-api/
   
-- API de pagamento (/pix/payments) só precisa do id da transação para retornar os dados do pagamento, pois esse Id é único. Seguindo a referência do BACEN.
 
