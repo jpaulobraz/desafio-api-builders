@@ -59,7 +59,7 @@ Testes foram divididos em duas partes:
 
 ## :sob: Report de Bugs
 
-- Foi gerado planilha excel e adicionado no github com imagens e descrição dos bus encontrados. Foi seguido o seguinte padrão para classificação dos bugs:
+- Foi gerada planilha excel e adicionada no github com imagens e descrição dos bug encontrados. Foi seguido o seguinte padrão para classificação dos bugs:
 
 :red_circle: Block - Bloqueia completamente a utilização de uma funcionalidade básica ou da aplicação inteira
 
